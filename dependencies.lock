@@ -1,0 +1,23 @@
+dependencies:
+  esp-nn:
+    component_hash: 91d07921e007073c656f4033c05e8c1c6d8b5023ec463414eb309594913cafe3
+    source:
+      git: https://github.com/espressif/tflite-micro-esp-examples.git
+      path: components/esp-nn
+      type: git
+    version: 83bc5ccf2e8f004219aa729ac25014f3c6eeba32
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.0.0
+  tflite-lib:
+    component_hash: e406088ea64fe6974532d966b7604cbe060133b7e0df57a13c442d25589d4628
+    source:
+      git: https://github.com/espressif/tflite-micro-esp-examples.git
+      path: components/tflite-lib
+      type: git
+    version: 83bc5ccf2e8f004219aa729ac25014f3c6eeba32
+manifest_hash: e78906e8c9528aef1295a66fb3243a996618900887e2293271ae1caee90ae02a
+target: esp32s3
+version: 1.0.0

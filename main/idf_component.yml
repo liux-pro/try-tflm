@@ -1,0 +1,11 @@
+## IDF Component Manager Manifest File
+dependencies:
+  esp-nn:
+    path: components/esp-nn
+    git: https://github.com/espressif/tflite-micro-esp-examples.git
+  tflite-lib:
+    path: components/tflite-lib
+    git: https://github.com/espressif/tflite-micro-esp-examples.git
+  ## Required IDF version
+  idf:
+    version: ">=5.0.0"
