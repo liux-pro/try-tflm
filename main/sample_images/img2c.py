@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+# 将图片转换为c语言数组
 
 width = 128
 height = 128

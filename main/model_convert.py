@@ -1,3 +1,4 @@
+# 把tflite文件转换为头文件
 f_read = open("mobilenet_v1_0.25_128.tflite", "rb")
 tflite_bytes = f_read.read()
 

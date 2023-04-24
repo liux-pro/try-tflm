@@ -25,10 +25,6 @@ extern "C" {
 // to be setup() for Arduino compatibility.
 void setup();
 
-// Runs one iteration of data gathering and inference. This should be called
-// repeatedly from the application code. The name needs to be loop() for Arduino
-// compatibility.
-void loop();
 
 #ifdef __cplusplus
 }
