@@ -1,5 +1,8 @@
 # try-tflm
 演示如把Tensorflow的mobilenet模型，转化为tflite模型，并运行在esp32s3上。
+# 软硬件环境
+IDF 5.0  
+esp32s3n16r8
 # esp32s3
 esp32s3的cpu集成了若干加速指令，用以提高ai推理或傅里叶变换，点积，矩阵，向量等的计算速度。  
 这部分指令本来需要通过汇编调用，但乐鑫通过
